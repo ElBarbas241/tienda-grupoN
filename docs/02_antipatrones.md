@@ -1,5 +1,6 @@
 Informe de Antipatrones y Olores de Código (Versión 0)
- 
+Proyecto: Sistema de Gestión para Tienda Deportiva  
+Responsable de Código: Esteban Duque
 
 ---
 
