@@ -1,0 +1,180 @@
+=====================================
+   SISTEMA TIENDA DEPORTIVA (v1)
+=====================================
+1. Registrar producto
+2. Crear kit deportivo
+3. Consultar inventario
+4. Registrar venta
+5. Reporte de ventas
+6. Salir
+Seleccione una opcion: 1
+
+--- REGISTRAR PRODUCTO (BUILDER) ---
+Codigo: 101
+Nombre: Tenis deportivos
+Precio: 200000
+Stock: 10
+Tipo (1: Calzado, 2: Ropa, 3: Balones/Accesorios): 1
+Producto registrado correctamente.
+
+=====================================
+   SISTEMA TIENDA DEPORTIVA (v1)
+=====================================
+1. Registrar producto
+2. Crear kit deportivo
+3. Consultar inventario
+4. Registrar venta
+5. Reporte de ventas
+6. Salir
+Seleccione una opcion: 1
+
+--- REGISTRAR PRODUCTO (BUILDER) ---
+Codigo: 102
+Nombre: Camisa deportiva
+Precio: 80000
+Stock: 15
+Tipo (1: Calzado, 2: Ropa, 3: Balones/Accesorios): 2
+Producto registrado correctamente.
+
+=====================================
+   SISTEMA TIENDA DEPORTIVA (v1)
+=====================================
+1. Registrar producto
+2. Crear kit deportivo
+3. Consultar inventario
+4. Registrar venta
+5. Reporte de ventas
+6. Salir
+Seleccione una opcion: 1
+
+--- REGISTRAR PRODUCTO (BUILDER) ---
+Codigo: 103
+Nombre: Balón de fútbol
+Precio: 120000
+Stock: 8
+Tipo (1: Calzado, 2: Ropa, 3: Balones/Accesorios): 3
+Meses de garantia: 6
+Producto registrado correctamente.
+
+=====================================
+   SISTEMA TIENDA DEPORTIVA (v1)
+=====================================
+1. Registrar producto
+2. Crear kit deportivo
+3. Consultar inventario
+4. Registrar venta
+5. Reporte de ventas
+6. Salir
+Seleccione una opcion: 2
+
+--- CREAR KIT DEPORTIVO (COMPOSITE) ---
+Codigo del kit: 104
+Nombre del kit: kit de fútbol
+Codigo de producto a incluir en el kit: 102
+Agregado al kit.
+Agregar otro producto al kit? (s/n): s
+Codigo de producto a incluir en el kit: 103
+Agregado al kit.
+Agregar otro producto al kit? (s/n): n
+Kit deportivo registrado.
+
+=====================================
+   SISTEMA TIENDA DEPORTIVA (v1)
+=====================================
+1. Registrar producto
+2. Crear kit deportivo
+3. Consultar inventario
+4. Registrar venta
+5. Reporte de ventas
+6. Salir
+Seleccione una opcion: 3
+
+--- INVENTARIO ---
+[101] Tenis deportivos | Calzado | Precio: $200000.00 | Stock: 10
+[102] Camisa deportiva | Ropa | Precio: $80000.00 | Stock: 15
+[103] Balón de fútbol | Balon/Accesorio | Precio: $120000.00 | Stock: 8 | Garantia: 6 meses
+[104] kit de fútbol [KIT] | Combo Deportivo | Precio: $190000.00 | Stock disponible: 8
+    -> Incluye: Camisa deportiva ($80000.00)
+    -> Incluye: Balón de fútbol ($120000.00)
+
+=====================================
+   SISTEMA TIENDA DEPORTIVA (v1)
+=====================================
+1. Registrar producto
+2. Crear kit deportivo
+3. Consultar inventario
+4. Registrar venta
+5. Reporte de ventas
+6. Salir
+Seleccione una opcion: 4
+
+--- REGISTRAR VENTA ---
+Codigo del item: 101
+Cantidad de Tenis deportivos: 2
+Item agregado a la venta.
+Agregar otro item? (s/n): s
+Codigo del item: 102
+Cantidad de Camisa deportiva: 1
+Item agregado a la venta.
+Agregar otro item? (s/n): n
+Forma de pago (1: Efectivo, 2: Tarjeta): 1
+
+======== FACTURA ========
+Tenis deportivos x2 | Bruto: $400000.00 | Desc: $40000.00 | IVA: $68400.00
+Camisa deportiva x1 | Bruto: $80000.00 | Desc: $6400.00 | IVA: $13984.00
+-------------------------
+Subtotal:   $480000.00
+Descuento:  -$46400.00
+IVA (19%):  +$82384.00
+TOTAL:      $515984.00
+=========================
+Confirmar pago de la venta ahora? (s/n): s
+Venta #1 marcada como PAGADA.
+Venta registrada con exito.
+
+=====================================
+   SISTEMA TIENDA DEPORTIVA (v1)
+=====================================
+1. Registrar producto
+2. Crear kit deportivo
+3. Consultar inventario
+4. Registrar venta
+5. Reporte de ventas
+6. Salir
+Seleccione una opcion: 5
+
+--- REPORTE DE VENTAS ---
+Total de transacciones: 1
+Dinero total recaudado (pagadas): $515984.00
+Venta #1 | Estado: Pagada | Detalle: Tenis deportivos x2; Camisa deportiva x1;  | Pago: Efectivo | Total: $515984.00
+
+=====================================
+   SISTEMA TIENDA DEPORTIVA (v1)
+=====================================
+1. Registrar producto
+2. Crear kit deportivo
+3. Consultar inventario
+4. Registrar venta
+5. Reporte de ventas
+6. Salir
+Seleccione una opcion: 3
+
+--- INVENTARIO ---
+[101] Tenis deportivos | Calzado | Precio: $200000.00 | Stock: 8
+[102] Camisa deportiva | Ropa | Precio: $80000.00 | Stock: 14
+[103] Balón de fútbol | Balon/Accesorio | Precio: $120000.00 | Stock: 8 | Garantia: 6 meses
+[104] kit de fútbol [KIT] | Combo Deportivo | Precio: $190000.00 | Stock disponible: 8
+    -> Incluye: Camisa deportiva ($80000.00)
+    -> Incluye: Balón de fútbol ($120000.00)
+
+=====================================
+   SISTEMA TIENDA DEPORTIVA (v1)
+=====================================
+1. Registrar producto
+2. Crear kit deportivo
+3. Consultar inventario
+4. Registrar venta
+5. Reporte de ventas
+6. Salir
+Seleccione una opcion: 6
+Saliendo del programa...
